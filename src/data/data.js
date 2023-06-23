@@ -1,27 +1,52 @@
-import WorkImg from "../assets/projects/workImg.jpeg";
-import realEstate from "../assets/projects/realestate.jpg";
+import ECommerce from "../assets/projects/ecommerce.gif";
+import applewebsite from "../assets/projects/applewebsite.png";
+import javascript30 from "../assets/projects/javascript30.png";
+import movieapp from "../assets/projects/movie.png";
+import weatherapp from "../assets/projects/weather.png";
+import starbucks from "../assets/projects/starbucks.png";
 
 const data = [
   {
     id: 1,
-    name: "ReactJS Application",
-    image: WorkImg,
-    github: "",
-    live: "",
+    name: "ECommerce Application",
+    image: ECommerce,
+    github: "https://github.com/Vishrut19/ECommerce-App",
+    live: "https://youtu.be/9tHUy1b-fVE",
   },
   {
     id: 2,
-    name: "ReactJS Application",
-    image: realEstate,
-    github: "",
-    live: "",
+    name: "Apple Website",
+    image: applewebsite,
+    github: "https://github.com/Vishrut19/IPhone-3D-Website",
+    live: "https://3d-iphone-website-vishrut.netlify.app/",
   },
   {
     id: 3,
-    name: "ReactJS Application",
-    image: WorkImg,
-    github: "",
-    live: "",
+    name: "30 Days 30 Projects",
+    image: javascript30,
+    github: "https://github.com/Vishrut19/30_days_30_projects",
+    live: "https://github.com/Vishrut19/30_days_30_projects",
+  },
+  {
+    id: 4,
+    name: "Movie App",
+    image: movieapp,
+    github: "https://github.com/Vishrut19/30_days_30_projects",
+    live: "https://day30-movie-app.netlify.app/",
+  },
+  {
+    id: 5,
+    name: "Weather App",
+    image: weatherapp,
+    github: "https://github.com/Vishrut19/30_days_30_projects",
+    live: "https://day22-weather-app.netlify.app/",
+  },
+  {
+    id: 6,
+    name: "Weather App",
+    image: starbucks,
+    github: "https://github.com/Vishrut19/Starbucks-Redesign",
+    live: "https://starbucks-redesign-vishrut.netlify.app/",
   },
 ];
 

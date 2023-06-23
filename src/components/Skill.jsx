@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
 import skilldata from "../data/skilldata";
 
 const Skill = () => {
@@ -13,9 +12,7 @@ const Skill = () => {
             <p className="text-4xl font-bold inline border-b-4 border-pink-600 ">
               Skills
             </p>
-            <p className="py-4">
-              // These are the technologies I've worked with
-            </p>
+            <p className="py-4">These are the technologies I've worked with</p>
           </div>
           <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
             {skills.map((skill) => (
