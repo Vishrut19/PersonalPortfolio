@@ -1,5 +1,5 @@
 import React from "react";
-import { data } from "../data/data.js";
+import data from "../data/data.js";
 
 const Work = () => {
   // projects file
@@ -19,9 +19,9 @@ const Work = () => {
         {/* container for projects */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Gird Item */}
-          {project.map((item, index) => (
+          {project.map((item) => (
             <div
-              key={index}
+              key={item.id}
               style={{ backgroundImage: `url(${item.image})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md 
               flex justify-center text-center items-center mx-auto content-div "

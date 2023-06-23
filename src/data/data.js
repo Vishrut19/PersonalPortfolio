@@ -1,7 +1,7 @@
 import WorkImg from "../assets/projects/workImg.jpeg";
 import realEstate from "../assets/projects/realestate.jpg";
 
-export const data = [
+const data = [
   {
     id: 1,
     name: "ReactJS Application",
@@ -24,3 +24,5 @@ export const data = [
     live: "",
   },
 ];
+
+export default data;
