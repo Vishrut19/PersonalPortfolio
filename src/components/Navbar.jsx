@@ -50,7 +50,7 @@ const Navbar = () => {
           </li>
         </ul>
         {/* Hamburger Menu */}
-        <div onClick={handleClick} className="md:hidden z-10">
+        <div onClick={handleClick} className="z-10 md:hidden">
           {!nav ? <FaBars /> : <FaTimes />}
         </div>
 
@@ -62,17 +62,17 @@ const Navbar = () => {
               : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
           }
         >
-          <li className="py-6  text-4xl">
+          <li className="py-6 text-4xl">
             <Link onClick={handleClick} to="home" smooth={true} duration={500}>
               Home
             </Link>
           </li>
-          <li className="py-6  text-4xl">
+          <li className="py-6 text-4xl">
             <Link onClick={handleClick} to="about" smooth={true} duration={500}>
               About
             </Link>
           </li>
-          <li className="py-6  text-4xl">
+          <li className="py-6 text-4xl">
             <Link
               onClick={handleClick}
               to="skills"
@@ -82,12 +82,12 @@ const Navbar = () => {
               Skills
             </Link>
           </li>
-          <li className="py-6  text-4xl">
+          <li className="py-6 text-4xl">
             <Link onClick={handleClick} to="work" smooth={true} duration={500}>
               Work
             </Link>
           </li>
-          <li className="py-6  text-4xl">
+          <li className="py-6 text-4xl">
             <Link
               onClick={handleClick}
               to="contact"
@@ -104,7 +104,7 @@ const Navbar = () => {
           <ul>
             <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
               <a
-                className="flex justify-between items-center w-full text-gray-300"
+                className="flex items-center justify-between w-full text-gray-300"
                 href="https://www.linkedin.com/in/vishrut-agarwalla/"
               >
                 Linkedin <FaLinkedin size={30} />
@@ -112,7 +112,7 @@ const Navbar = () => {
             </li>
             <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-400">
               <a
-                className="flex justify-between items-center w-full text-gray-300"
+                className="flex items-center justify-between w-full text-gray-300"
                 href="https://www.linkedin.com/in/vishrut-agarwalla/"
               >
                 Twitter <FaTwitterSquare size={30} />
@@ -120,7 +120,7 @@ const Navbar = () => {
             </li>
             <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
               <a
-                className="flex justify-between items-center w-full text-gray-300"
+                className="flex items-center justify-between w-full text-gray-300"
                 href="https://github.com/Vishrut19"
               >
                 Github <FaGithub size={30} />
@@ -128,7 +128,7 @@ const Navbar = () => {
             </li>
             <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#3168c1]">
               <a
-                className="flex justify-between items-center w-full text-gray-300"
+                className="flex items-center justify-between w-full text-gray-300"
                 href="https://vishrut19.hashnode.dev/"
               >
                 Hashnode <SiHashnode size={30} />
@@ -136,8 +136,8 @@ const Navbar = () => {
             </li>
             <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
               <a
-                className="flex justify-between items-center w-full text-gray-300"
-                href="/"
+                className="flex items-center justify-between w-full text-gray-300"
+                href="https://drive.google.com/file/d/11egKAUbmRS9XXRU5L-fVgm48nLo4yhEU/view?usp=sharing"
               >
                 Resume <BsFillPersonLinesFill size={30} />
               </a>
