@@ -1,5 +1,4 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
-import React from "react";
 import HTML from "../assets/html.png";
 import CSS from "../assets/css.png";
 import GitHub from "../assets/github.png";
