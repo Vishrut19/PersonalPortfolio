@@ -1,8 +1,8 @@
 import ECommerce from "../assets/projects/ecommerce.gif";
 import applewebsite from "../assets/projects/applewebsite.png";
 import javascript30 from "../assets/projects/javascript30.png";
-import movieapp from "../assets/projects/movie.png";
-import weatherapp from "../assets/projects/weather.png";
+import dashboard from "../assets/projects/dashboard.png";
+import netflixgpt from "../assets/projects/netflixgpt.png";
 import starbucks from "../assets/projects/starbucks.png";
 
 const data = [
@@ -30,7 +30,7 @@ const data = [
   {
     id: 4,
     name: "DashBoard App",
-    image: Dashboard,
+    image: dashboard,
     github: "https://github.com/Vishrut19/Innoloft_FrontEnd_Task",
     live: "https://innoloft-front-end-task.vercel.app/",
   },
